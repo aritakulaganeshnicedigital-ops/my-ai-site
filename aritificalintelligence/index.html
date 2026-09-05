@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mara Lin — Web Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="#top" class="mark">Mara Lin</a>
+    <nav class="primary-nav" id="primary-nav">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu">
+      <span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="hero-grid">
+      <h1 class="hero-headline">Building interfaces people actually enjoy using.</h1>
+      <div class="hero-side">
+        <p class="hero-copy">I'm Mara, an independent web developer working with small teams and founders on sites and products that need to look considered and run fast — from first sketch to shipped code.</p>
+        <a class="cta" href="#contact">Start a project</a>
+        <p class="hero-status"><span class="dot" aria-hidden="true"></span>Taking new work for Q1</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="work" id="work">
+    <div class="section-head">
+      <h2>Selected work</h2>
+      <p>A few recent builds, picked for the range of problems they solved.</p>
+    </div>
+
+    <ul class="work-list">
+      <li class="work-row">
+        <div class="work-title">
+          <h3>Harbor Notes</h3>
+          <p>Reading app for long-form journalism, rebuilt for offline reading and slow connections.</p>
+        </div>
+        <div class="work-meta">
+          <span class="work-tags">Product design · Frontend</span>
+          <span class="work-year">2026</span>
+        </div>
+      </li>
+      <li class="work-row">
+        <div class="work-title">
+          <h3>Fennel &amp; Co.</h3>
+          <p>Commerce site for a small ceramics studio, built around slow, careful product photography.</p>
+        </div>
+        <div class="work-meta">
+          <span class="work-tags">E-commerce · Brand site</span>
+          <span class="work-year">2025</span>
+        </div>
+      </li>
+      <li class="work-row">
+        <div class="work-title">
+          <h3>Loom Analytics</h3>
+          <p>Dashboard rework for a logistics startup — cut load time from 4.2s to under 900ms.</p>
+        </div>
+        <div class="work-meta">
+          <span class="work-tags">Dashboard · Performance</span>
+          <span class="work-year">2025</span>
+        </div>
+      </li>
+      <li class="work-row">
+        <div class="work-title">
+          <h3>Understory</h3>
+          <p>Marketing site and booking flow for a boutique hiking outfitter in the Pacific Northwest.</p>
+        </div>
+        <div class="work-meta">
+          <span class="work-tags">Marketing site · Booking</span>
+          <span class="work-year">2024</span>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <section class="about" id="about">
+    <div class="about-text">
+      <h2>About</h2>
+      <p>I've spent the last eight years moving between agency and in-house work, which mostly taught me to care about the parts users never see: load times, keyboard access, what happens when the network drops. Good design holds up under those conditions, not just in the mockup.</p>
+      <p>Based in Portland, working with clients everywhere.</p>
+    </div>
+    <div class="about-skills">
+      <h3>Tools &amp; focus</h3>
+      <div class="skill-tags">
+        <span>HTML &amp; CSS</span>
+        <span>JavaScript</span>
+        <span>Accessibility</span>
+        <span>Performance</span>
+        <span>Design systems</span>
+        <span>React</span>
+        <span>Responsive layout</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Have a project in mind?</h2>
+    <a class="contact-email" href="mailto:hello@maralin.dev">hello@maralin.dev</a>
+    <div class="contact-links">
+      <a href="#">LinkedIn</a>
+      <a href="#">GitHub</a>
+      <a href="#">Reading list</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>&copy; 2026 Mara Lin.</p>
+  <a href="#top">Back to top</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
